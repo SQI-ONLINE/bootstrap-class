@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Class</title>
+    <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container-fluid bg-light">
+        <div class="row">
+
+            <div class="col-5 mx-auto shadow pt-3 bg-white" style="margin-top: 5%; max-height: 80vh; overflow: auto">
+                <h3>BOOTSTRAP FORM CLASS</h3>
+                <hr>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <label for="fName">Firstname</label>
+                            <input id="fName" type="text" class="form-control is-invalid" placeholder="John"> 
+                            <small class="invalid-feedback">This field is required</small>
+                        </div>
+                        
+                        <div class="form-group col">
+                            <label for="lName">Lastname</label>
+                            <input id="lName" type="text" class="form-control is-valid" placeholder="Doe"> 
+                            <small class="valid-feedback">Valid data submitted</small>
+
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <label>Phone Number</label>
+                            <input type="text" class="form-control" placeholder="+23480000000"> 
+                        </div>
+    
+                        <div class="form-group col">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="mail@example.com"> 
+                            <small class="text-muted">Must be a work email address</small>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text">Email:</label>
+                        </div>
+                        <input type="email" class="form-control is-valid">
+                    </div>
+
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" checked class="custom-control-input">
+                        <label class="custom-control-label">Keep me signed in</label>
+                    </div>
+
+                    <!-- <div class="form-group">
+                            <label>Pick</label>
+                            <input type="range" class="form-control"> 
+                        </div>
+                    <div class="custom-control">
+                            <label>Pick</label>
+                            <input type="range" class="custom-range" min="0" max="10" step="2"> 
+                        </div> -->
+<!-- 
+                    <div class="form-group">
+                        <label>Passport</label>
+                        <input type="file" class="form-control"> 
+                    </div> -->
+
+                    <!-- <div class="form-group">
+                        <label>Select Course</label>
+                        <select class="form-control">
+                            <option selected>Select a course</option>
+                            <option value="soft">Software Engineering</option>
+                            <option value="net">Network Administration</option>
+                            <option value="db">Database Administration</option>
+                            <option value="mult">Multimedia Technology</option>
+                        </select>
+                    </div> -->
+<!-- 
+                    <div class="form-group form-check">
+
+                        <input id="male" name="gender" type="radio" class="form-check-input">
+                        <label for="male" class="form-check-label">Male</label>
+
+                        <input type="radio" name="gender" class="form-check-input">
+                        <label class="form-check-label">Female</label>
+                    </div> -->
+
+                    <!-- <input type="checkbox">
+                    <label>Keep me signed in</label>
+                    <br> -->
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
